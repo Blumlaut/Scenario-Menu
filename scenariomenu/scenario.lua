@@ -80,7 +80,7 @@ Citizen.CreateThread(function()
 
 
     while true do
-
+        ped = PlayerPedId()
         if checkbox2 then
             looped2 = 1
         else
