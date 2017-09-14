@@ -1,5 +1,3 @@
-local ped = GetPlayerPed(-1)
-local name = GetPlayerName(PlayerId())
 local looped = 0
 local looped2 = 1
 
@@ -77,7 +75,7 @@ Citizen.CreateThread(function()
     WarMenu.CreateSubMenu('gesture', 'list', 'Gestures')
     WarMenu.CreateSubMenu('scens', 'list', 'Scenarios')
     WarMenu.CreateSubMenu('creds', 'list', 'Credits')
-
+    local name = GetPlayerName(PlayerId())
 
     while true do
         ped = PlayerPedId()
