@@ -76,9 +76,9 @@ Citizen.CreateThread(function()
     WarMenu.CreateSubMenu('scens', 'list', 'Scenarios')
     WarMenu.CreateSubMenu('creds', 'list', 'Credits')
     local name = GetPlayerName(PlayerId())
+ped = GetPlayerPed(-1)
 
     while true do
-        ped = PlayerPedId()
 
         if checkbox2 then
             looped2 = 1
